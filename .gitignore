@@ -1,0 +1,9 @@
+cat > .gitignore <<'EOF'
+.env
+*.pem
+*.key
+kubeconfig
+__pycache__/
+*.pyc
+.venv/
+EOF
